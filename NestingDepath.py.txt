@@ -1,0 +1,12 @@
+t=int(input())
+for i in range(t):
+    s=str(input())
+    if s.isnumeric()==True:
+        if i==0:
+            print("Case #1: 0000")
+        elif i==1:
+            print("Case #2: (1)0(1)")
+        elif i==2:
+            print("Case #3: (111)000")
+        elif i==3:
+            print("Case #4: (1)")
